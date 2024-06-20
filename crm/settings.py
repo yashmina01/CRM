@@ -24,8 +24,8 @@ SECRET_KEY = 'django-insecure-ko+igsje@#dmv+fmsn*y9j62ocpya3-ikgn589^!uwgyd&3!uc
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['locahost', '127.0.0.1']
+ALLOWED_HOSTS += ['crm-production.up.railway.app']
 
 
 # Application definition
